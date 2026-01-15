@@ -1,0 +1,18 @@
+{
+  "name": "portal-express1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "node -c index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "@pacote/saudacao": "workspace:*",
+        "@pacote/conectar": "workspace:*"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
