@@ -3,7 +3,8 @@
   "private": true,
   "packageManager": "pnpm@10.28.0",
   "scripts": {
-    "dev": "turbo dev",
+    "dev:portal-express1": "turbo dev --filter=portal-express1 --filter=portal-express2",
+
     "build": "turbo build"
   },
   "devDependencies": {

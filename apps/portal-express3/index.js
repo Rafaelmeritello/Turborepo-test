@@ -4,7 +4,7 @@ const path = require('path');
 
 
 const app = express();
-const porta = 3001;
+const porta = 3002;
 
 
 app.set('view engine', 'hbs');
@@ -12,7 +12,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => {
 
-  return res.send('Resposta express 2')
+  return res.send('Resposta express 3')
 });
 
 app.listen(porta, () => {
