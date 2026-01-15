@@ -1,7 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 const path = require('path');
-const { msg } = require('@metodo/saudacao'); 
+const { msg } = require('@pacote/saudacao'); 
 const {buscarmsg} = require('@pacote/conectar')
 const app = express();
 const porta = 3000;
